@@ -32,9 +32,11 @@ android {
     flavorDimensions "type"
     productFlavors{
         free{
+            applicationIdSuffix ".free"
             dimension "type"
         }
         full{
+            applicationIdSuffix ".full"
             dimension "type"
         }
     }
